@@ -13,7 +13,6 @@ void main() async {
   final String? savedUsername = prefs.getString('username');
   final bool isLoggedIn = prefs.getBool('isLoggedIn') ?? false;
   final bool isAdmin = prefs.getBool('isAdmin') ?? false;
-
   runApp(MyApp(
     isLoggedIn: isLoggedIn, 
     username: savedUsername, 

@@ -11,6 +11,7 @@ dependencies:
   flutter:
     sdk: flutter
 
+  # 📦 المكتبات ديالك
   cupertino_icons: ^1.0.8
   cloud_firestore: ^6.1.1
   firebase_core: ^4.3.0
@@ -28,11 +29,14 @@ dev_dependencies:
   flutter_test:
     sdk: flutter
   flutter_lints: ^6.0.0
+  # 👇 أدوات التوليد (الأيقونات والسبلاش)
   flutter_launcher_icons: ^0.13.1
   flutter_native_splash: ^2.3.10
 
 flutter:
   uses-material-design: true
+
+  # 👇 مسار الصور
   assets:
     - assets/
 
@@ -41,7 +45,7 @@ flutter:
 # ----------------------------------------
 flutter_launcher_icons:
   android: "launcher_icon"
-  ios: false             # 👈 بدلناها لـ false باش ما يقلبش على الآيفون
+  ios: true                       # ✅ مفعلة (حيت جبنا مجلد ios)
   image_path: "assets/logo.png"
   min_sdk_android: 21
 
@@ -54,7 +58,4 @@ flutter_native_splash:
   android_12:
     color: "#6A11CB"
     image: "assets/logo.png"
-  # 👇 حيدنا (أو عطلنا) السطورة ديال iOS
-  # ios:
-  #   color: "#6A11CB"
-  #   image: "assets/logo.png"
+  ios: true                       # ✅ هذا هو التصحيح (كان كيسبب Error فاش كان فيه تفاصيل)
