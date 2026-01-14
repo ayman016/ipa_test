@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "170903324082",
+    "project_id": "benmsik-e4d3d",
+    "storage_bucket": "benmsik-e4d3d.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:170903324082:android:33b915a0c7a629982250ab",
+        "android_client_info": {
+          "package_name": "com.example.bensmik"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD7k2GPxtHeFxNYDq2_yXyhJKtopPpFMYo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
